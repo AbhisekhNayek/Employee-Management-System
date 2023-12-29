@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 mongoose
-  .connect("mongodb+srv://sujan:sujan@cluster0.zv7uvht.mongodb.net/", {
+  .connect("ENTER YOUR URL", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
